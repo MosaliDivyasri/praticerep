@@ -1,0 +1,9 @@
+#ifndef __ANALOG_H__
+#define __ANALOG_H__
+
+
+#define Init_Analog() Init_ADC()
+
+void Measure_vPOT(uint16_t *mv);
+
+#endif
